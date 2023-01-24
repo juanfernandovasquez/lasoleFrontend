@@ -1,0 +1,29 @@
+{% include './include_header.html'%}
+<div class="container text-center pt-3">
+
+    <div class="row justify-content-center gap-3 ">
+        {% for producto in productos%}
+        <div class="card text-center mb-3" style="width: 18rem;">
+            <div class="card-body">
+                <img src="{{producto.link_imagen}}" class="card-img-top mb-3" alt="...">
+                <h5 class="card-title">{{producto.titulo}}</h5>
+                <p class="card-text">{{producto.descripcion}}</p>
+                <p class="card-text">S/ {{producto.precio}}</p>
+                <a href="#" data_producto_id="{{producto.producto_id}}" class="btn btn-primary boton_producto">Hacer
+                    pedido</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+<script>
+    document.querySelectorAll(".boton_producto").forEach(el => {
+        let id_producto = el.attributes[1]
+        let url =
+            "https://api.whatsapp.com/send?phone=51975763285&text=Hola%2C%20quiero%20hacer%20un%20pedido" +
+            "%20del%20producto_id=" + id_producto.value
+        el.setAttribute('href', url)
+
+    })
+</script>
+{% include './include_footer.html'%}
