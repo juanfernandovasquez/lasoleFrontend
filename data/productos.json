@@ -1,0 +1,30 @@
+[
+  {
+    "producto_id": "1",
+    "link_imagen": "https://www.rete.de/wp-content/uploads/2016/09/placeholder-image-500x500.png",
+    "titulo": "Tarta de chocolate",
+    "descripcion": "Deliciosa tarta de chocolate",
+    "precio": "15"
+  },
+  {
+    "producto_id": "2",
+    "link_imagen": "https://www.rete.de/wp-content/uploads/2016/09/placeholder-image-500x500.png",
+    "titulo": "Tarta de chocolate",
+    "descripcion": "Deliciosa tarta de chocolate",
+    "precio": "15"
+  },
+  {
+    "producto_id": "3",
+    "link_imagen": "https://www.rete.de/wp-content/uploads/2016/09/placeholder-image-500x500.png",
+    "titulo": "Tarta de chocolate",
+    "descripcion": "Deliciosa tarta de chocolate",
+    "precio": "15"
+  },
+  {
+    "producto_id": "4",
+    "link_imagen": "https://www.rete.de/wp-content/uploads/2016/09/placeholder-image-500x500.png",
+    "titulo": "Tarta de chocolate",
+    "descripcion": "Deliciosa tarta de chocolate",
+    "precio": "15"
+  }
+]
